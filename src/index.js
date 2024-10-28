@@ -1,18 +1,23 @@
-console.log("hello");
+
 import './style.css';
-import { loadHome } from './home.js';
+import homeDefault from './home';
 import  { loadMenu } from './menu.js';
+import { loadAbout } from './about.js';
 
 
-
-function displayHome() { 
+function displayHome() {     
+ homeDefault();  
     
- loadHome();  
-    
-  }
+}
+
 function displayMenu() {
   loadMenu();
 }
+
+function displayAbout() {
+  loadAbout();
+}
+
 
 document.getElementById("homeButton").addEventListener("click", displayHome); 
 displayHome(); 
@@ -20,5 +25,5 @@ displayHome();
 document.getElementById("menuButton").addEventListener("click", displayMenu); 
 displayMenu(); 
 
-// document.getElementById("aboutButton").addEventListener("click", displayHome); 
-// displayButton(); 
+document.getElementById("aboutButton").addEventListener("click", displayAbout); 
+displayAbout(); 

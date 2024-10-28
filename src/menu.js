@@ -11,6 +11,7 @@ function createMenu() {
     divMenu.classList.add("divContainer");
     const heading = document.createElement("h2"); // Create a new heading element
     heading.textContent = "Our Menu"; // Set the text for the heading
+    heading.classList.add("headingText");
     divMenu.appendChild(heading); // Append the heading to the divMenu
 
     const ul = document.createElement("ul");

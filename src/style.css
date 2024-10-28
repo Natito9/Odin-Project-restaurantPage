@@ -3,6 +3,7 @@ body {
     background-color: #203228;
     margin: 0;
     padding: 20px;
+    color: #caddcb;
   }
   
   h1 {
@@ -19,8 +20,24 @@ body {
 
 
   button { 
+
     
     
+  }
+  .divContainer {
+    color:rgb(216, 216, 216);
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .description {
+     text-align: center;
+    /* background-image: url('assets/img/main-image-botanikacafe.webp');
+    background-size: cover; 
+    background-position: center;
+    height: 400px; 
+    width: 100%;   */
+
   }
 
   
